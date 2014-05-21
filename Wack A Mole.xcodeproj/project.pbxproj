@@ -21,6 +21,9 @@
 		266AEDD3192CE4CE00C2C6D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AEDB5192CE4CE00C2C6D9 /* UIKit.framework */; };
 		266AEDDB192CE4CE00C2C6D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 266AEDD9192CE4CE00C2C6D9 /* InfoPlist.strings */; };
 		266AEDDD192CE4CE00C2C6D9 /* Wack_A_MoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDDC192CE4CE00C2C6D9 /* Wack_A_MoleTests.m */; };
+		266AEDEB192D024800C2C6D9 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDEA192D024800C2C6D9 /* UserInfo.m */; };
+		266AEDEE192D055100C2C6D9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDED192D055100C2C6D9 /* GameViewController.m */; };
+		266AEDF1192D0E7800C2C6D9 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDF0192D0E7800C2C6D9 /* SubmitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		266AEDD8192CE4CE00C2C6D9 /* Wack A MoleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wack A MoleTests-Info.plist"; sourceTree = "<group>"; };
 		266AEDDA192CE4CE00C2C6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		266AEDDC192CE4CE00C2C6D9 /* Wack_A_MoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wack_A_MoleTests.m; sourceTree = "<group>"; };
+		266AEDE9192D024800C2C6D9 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		266AEDEA192D024800C2C6D9 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		266AEDEC192D055100C2C6D9 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		266AEDED192D055100C2C6D9 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		266AEDEF192D0E7800C2C6D9 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitViewController.h; sourceTree = "<group>"; };
+		266AEDF0192D0E7800C2C6D9 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,12 @@
 				266AEDC3192CE4CE00C2C6D9 /* Main.storyboard */,
 				266AEDC6192CE4CE00C2C6D9 /* ViewController.h */,
 				266AEDC7192CE4CE00C2C6D9 /* ViewController.m */,
+				266AEDEC192D055100C2C6D9 /* GameViewController.h */,
+				266AEDED192D055100C2C6D9 /* GameViewController.m */,
+				266AEDEF192D0E7800C2C6D9 /* SubmitViewController.h */,
+				266AEDF0192D0E7800C2C6D9 /* SubmitViewController.m */,
+				266AEDE9192D024800C2C6D9 /* UserInfo.h */,
+				266AEDEA192D024800C2C6D9 /* UserInfo.m */,
 				266AEDC9192CE4CE00C2C6D9 /* Images.xcassets */,
 				266AEDB8192CE4CE00C2C6D9 /* Supporting Files */,
 			);
@@ -249,8 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266AEDEE192D055100C2C6D9 /* GameViewController.m in Sources */,
+				266AEDEB192D024800C2C6D9 /* UserInfo.m in Sources */,
 				266AEDC8192CE4CE00C2C6D9 /* ViewController.m in Sources */,
 				266AEDC2192CE4CE00C2C6D9 /* AppDelegate.m in Sources */,
+				266AEDF1192D0E7800C2C6D9 /* SubmitViewController.m in Sources */,
 				266AEDBE192CE4CE00C2C6D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
