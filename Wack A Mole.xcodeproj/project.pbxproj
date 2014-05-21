@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266AEDB2192CE4CE00C2C6D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AEDB1192CE4CE00C2C6D9 /* Foundation.framework */; };
+		266AEDB4192CE4CE00C2C6D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AEDB3192CE4CE00C2C6D9 /* CoreGraphics.framework */; };
+		266AEDB6192CE4CE00C2C6D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AEDB5192CE4CE00C2C6D9 /* UIKit.framework */; };
+		266AEDBC192CE4CE00C2C6D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 266AEDBA192CE4CE00C2C6D9 /* InfoPlist.strings */; };
+		266AEDBE192CE4CE00C2C6D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDBD192CE4CE00C2C6D9 /* main.m */; };
+		266AEDC2192CE4CE00C2C6D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDC1192CE4CE00C2C6D9 /* AppDelegate.m */; };
+		266AEDC5192CE4CE00C2C6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266AEDC3192CE4CE00C2C6D9 /* Main.storyboard */; };
+		266AEDC8192CE4CE00C2C6D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDC7192CE4CE00C2C6D9 /* ViewController.m */; };
+		266AEDCA192CE4CE00C2C6D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266AEDC9192CE4CE00C2C6D9 /* Images.xcassets */; };
+		266AEDD1192CE4CE00C2C6D9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AEDD0192CE4CE00C2C6D9 /* XCTest.framework */; };
+		266AEDD2192CE4CE00C2C6D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AEDB1192CE4CE00C2C6D9 /* Foundation.framework */; };
+		266AEDD3192CE4CE00C2C6D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266AEDB5192CE4CE00C2C6D9 /* UIKit.framework */; };
+		266AEDDB192CE4CE00C2C6D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 266AEDD9192CE4CE00C2C6D9 /* InfoPlist.strings */; };
+		266AEDDD192CE4CE00C2C6D9 /* Wack_A_MoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDDC192CE4CE00C2C6D9 /* Wack_A_MoleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		266AEDD4192CE4CE00C2C6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 266AEDA6192CE4CE00C2C6D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266AEDAD192CE4CE00C2C6D9;
+			remoteInfo = "Wack A Mole";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		266AEDAE192CE4CE00C2C6D9 /* Wack A Mole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wack A Mole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266AEDB1192CE4CE00C2C6D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		266AEDB3192CE4CE00C2C6D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		266AEDB5192CE4CE00C2C6D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		266AEDB9192CE4CE00C2C6D9 /* Wack A Mole-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wack A Mole-Info.plist"; sourceTree = "<group>"; };
+		266AEDBB192CE4CE00C2C6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		266AEDBD192CE4CE00C2C6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		266AEDBF192CE4CE00C2C6D9 /* Wack A Mole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wack A Mole-Prefix.pch"; sourceTree = "<group>"; };
+		266AEDC0192CE4CE00C2C6D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		266AEDC1192CE4CE00C2C6D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		266AEDC4192CE4CE00C2C6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		266AEDC6192CE4CE00C2C6D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		266AEDC7192CE4CE00C2C6D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		266AEDC9192CE4CE00C2C6D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		266AEDCF192CE4CE00C2C6D9 /* Wack A MoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wack A MoleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266AEDD0192CE4CE00C2C6D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		266AEDD8192CE4CE00C2C6D9 /* Wack A MoleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wack A MoleTests-Info.plist"; sourceTree = "<group>"; };
+		266AEDDA192CE4CE00C2C6D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		266AEDDC192CE4CE00C2C6D9 /* Wack_A_MoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wack_A_MoleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266AEDAB192CE4CE00C2C6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AEDB4192CE4CE00C2C6D9 /* CoreGraphics.framework in Frameworks */,
+				266AEDB6192CE4CE00C2C6D9 /* UIKit.framework in Frameworks */,
+				266AEDB2192CE4CE00C2C6D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266AEDCC192CE4CE00C2C6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AEDD1192CE4CE00C2C6D9 /* XCTest.framework in Frameworks */,
+				266AEDD3192CE4CE00C2C6D9 /* UIKit.framework in Frameworks */,
+				266AEDD2192CE4CE00C2C6D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266AEDA5192CE4CE00C2C6D9 = {
+			isa = PBXGroup;
+			children = (
+				266AEDB7192CE4CE00C2C6D9 /* Wack A Mole */,
+				266AEDD6192CE4CE00C2C6D9 /* Wack A MoleTests */,
+				266AEDB0192CE4CE00C2C6D9 /* Frameworks */,
+				266AEDAF192CE4CE00C2C6D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266AEDAF192CE4CE00C2C6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266AEDAE192CE4CE00C2C6D9 /* Wack A Mole.app */,
+				266AEDCF192CE4CE00C2C6D9 /* Wack A MoleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266AEDB0192CE4CE00C2C6D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				266AEDB1192CE4CE00C2C6D9 /* Foundation.framework */,
+				266AEDB3192CE4CE00C2C6D9 /* CoreGraphics.framework */,
+				266AEDB5192CE4CE00C2C6D9 /* UIKit.framework */,
+				266AEDD0192CE4CE00C2C6D9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		266AEDB7192CE4CE00C2C6D9 /* Wack A Mole */ = {
+			isa = PBXGroup;
+			children = (
+				266AEDC0192CE4CE00C2C6D9 /* AppDelegate.h */,
+				266AEDC1192CE4CE00C2C6D9 /* AppDelegate.m */,
+				266AEDC3192CE4CE00C2C6D9 /* Main.storyboard */,
+				266AEDC6192CE4CE00C2C6D9 /* ViewController.h */,
+				266AEDC7192CE4CE00C2C6D9 /* ViewController.m */,
+				266AEDC9192CE4CE00C2C6D9 /* Images.xcassets */,
+				266AEDB8192CE4CE00C2C6D9 /* Supporting Files */,
+			);
+			path = "Wack A Mole";
+			sourceTree = "<group>";
+		};
+		266AEDB8192CE4CE00C2C6D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				266AEDB9192CE4CE00C2C6D9 /* Wack A Mole-Info.plist */,
+				266AEDBA192CE4CE00C2C6D9 /* InfoPlist.strings */,
+				266AEDBD192CE4CE00C2C6D9 /* main.m */,
+				266AEDBF192CE4CE00C2C6D9 /* Wack A Mole-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		266AEDD6192CE4CE00C2C6D9 /* Wack A MoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				266AEDDC192CE4CE00C2C6D9 /* Wack_A_MoleTests.m */,
+				266AEDD7192CE4CE00C2C6D9 /* Supporting Files */,
+			);
+			path = "Wack A MoleTests";
+			sourceTree = "<group>";
+		};
+		266AEDD7192CE4CE00C2C6D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				266AEDD8192CE4CE00C2C6D9 /* Wack A MoleTests-Info.plist */,
+				266AEDD9192CE4CE00C2C6D9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266AEDAD192CE4CE00C2C6D9 /* Wack A Mole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266AEDE0192CE4CE00C2C6D9 /* Build configuration list for PBXNativeTarget "Wack A Mole" */;
+			buildPhases = (
+				266AEDAA192CE4CE00C2C6D9 /* Sources */,
+				266AEDAB192CE4CE00C2C6D9 /* Frameworks */,
+				266AEDAC192CE4CE00C2C6D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wack A Mole";
+			productName = "Wack A Mole";
+			productReference = 266AEDAE192CE4CE00C2C6D9 /* Wack A Mole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		266AEDCE192CE4CE00C2C6D9 /* Wack A MoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266AEDE3192CE4CE00C2C6D9 /* Build configuration list for PBXNativeTarget "Wack A MoleTests" */;
+			buildPhases = (
+				266AEDCB192CE4CE00C2C6D9 /* Sources */,
+				266AEDCC192CE4CE00C2C6D9 /* Frameworks */,
+				266AEDCD192CE4CE00C2C6D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				266AEDD5192CE4CE00C2C6D9 /* PBXTargetDependency */,
+			);
+			name = "Wack A MoleTests";
+			productName = "Wack A MoleTests";
+			productReference = 266AEDCF192CE4CE00C2C6D9 /* Wack A MoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266AEDA6192CE4CE00C2C6D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tutorial;
+				TargetAttributes = {
+					266AEDCE192CE4CE00C2C6D9 = {
+						TestTargetID = 266AEDAD192CE4CE00C2C6D9;
+					};
+				};
+			};
+			buildConfigurationList = 266AEDA9192CE4CE00C2C6D9 /* Build configuration list for PBXProject "Wack A Mole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266AEDA5192CE4CE00C2C6D9;
+			productRefGroup = 266AEDAF192CE4CE00C2C6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266AEDAD192CE4CE00C2C6D9 /* Wack A Mole */,
+				266AEDCE192CE4CE00C2C6D9 /* Wack A MoleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266AEDAC192CE4CE00C2C6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AEDCA192CE4CE00C2C6D9 /* Images.xcassets in Resources */,
+				266AEDBC192CE4CE00C2C6D9 /* InfoPlist.strings in Resources */,
+				266AEDC5192CE4CE00C2C6D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266AEDCD192CE4CE00C2C6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AEDDB192CE4CE00C2C6D9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266AEDAA192CE4CE00C2C6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AEDC8192CE4CE00C2C6D9 /* ViewController.m in Sources */,
+				266AEDC2192CE4CE00C2C6D9 /* AppDelegate.m in Sources */,
+				266AEDBE192CE4CE00C2C6D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266AEDCB192CE4CE00C2C6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AEDDD192CE4CE00C2C6D9 /* Wack_A_MoleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		266AEDD5192CE4CE00C2C6D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 266AEDAD192CE4CE00C2C6D9 /* Wack A Mole */;
+			targetProxy = 266AEDD4192CE4CE00C2C6D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		266AEDBA192CE4CE00C2C6D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266AEDBB192CE4CE00C2C6D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		266AEDC3192CE4CE00C2C6D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266AEDC4192CE4CE00C2C6D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		266AEDD9192CE4CE00C2C6D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266AEDDA192CE4CE00C2C6D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		266AEDDE192CE4CE00C2C6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		266AEDDF192CE4CE00C2C6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		266AEDE1192CE4CE00C2C6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wack A Mole/Wack A Mole-Prefix.pch";
+				INFOPLIST_FILE = "Wack A Mole/Wack A Mole-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		266AEDE2192CE4CE00C2C6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wack A Mole/Wack A Mole-Prefix.pch";
+				INFOPLIST_FILE = "Wack A Mole/Wack A Mole-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		266AEDE4192CE4CE00C2C6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wack A Mole.app/Wack A Mole";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wack A Mole/Wack A Mole-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wack A MoleTests/Wack A MoleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		266AEDE5192CE4CE00C2C6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wack A Mole.app/Wack A Mole";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wack A Mole/Wack A Mole-Prefix.pch";
+				INFOPLIST_FILE = "Wack A MoleTests/Wack A MoleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266AEDA9192CE4CE00C2C6D9 /* Build configuration list for PBXProject "Wack A Mole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266AEDDE192CE4CE00C2C6D9 /* Debug */,
+				266AEDDF192CE4CE00C2C6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266AEDE0192CE4CE00C2C6D9 /* Build configuration list for PBXNativeTarget "Wack A Mole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266AEDE1192CE4CE00C2C6D9 /* Debug */,
+				266AEDE2192CE4CE00C2C6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		266AEDE3192CE4CE00C2C6D9 /* Build configuration list for PBXNativeTarget "Wack A MoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266AEDE4192CE4CE00C2C6D9 /* Debug */,
+				266AEDE5192CE4CE00C2C6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266AEDA6192CE4CE00C2C6D9 /* Project object */;
+}
