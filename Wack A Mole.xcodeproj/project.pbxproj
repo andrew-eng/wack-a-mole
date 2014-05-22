@@ -24,6 +24,12 @@
 		266AEDEB192D024800C2C6D9 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDEA192D024800C2C6D9 /* UserInfo.m */; };
 		266AEDEE192D055100C2C6D9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDED192D055100C2C6D9 /* GameViewController.m */; };
 		266AEDF1192D0E7800C2C6D9 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AEDF0192D0E7800C2C6D9 /* SubmitViewController.m */; };
+		A5C7A923192E65F20093A5C9 /* 0182-square.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C7A922192E65F20093A5C9 /* 0182-square.png */; };
+		A5C7A925192E66DF0093A5C9 /* 0011-square.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C7A924192E66DF0093A5C9 /* 0011-square.png */; };
+		A5C7A927192E68310093A5C9 /* 0018-square.png in Resources */ = {isa = PBXBuildFile; fileRef = A5C7A926192E68310093A5C9 /* 0018-square.png */; };
+		A5C7A929192E6A040093A5C9 /* melody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C7A928192E6A040093A5C9 /* melody.mp3 */; };
+		A5C7A92B192E6A200093A5C9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C7A92A192E6A200093A5C9 /* AVFoundation.framework */; };
+		A5C7A92D192E6C180093A5C9 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5C7A92C192E6C180093A5C9 /* bomb.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,12 @@
 		266AEDED192D055100C2C6D9 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		266AEDEF192D0E7800C2C6D9 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitViewController.h; sourceTree = "<group>"; };
 		266AEDF0192D0E7800C2C6D9 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitViewController.m; sourceTree = "<group>"; };
+		A5C7A922192E65F20093A5C9 /* 0182-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0182-square.png"; sourceTree = "<group>"; };
+		A5C7A924192E66DF0093A5C9 /* 0011-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0011-square.png"; sourceTree = "<group>"; };
+		A5C7A926192E68310093A5C9 /* 0018-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0018-square.png"; sourceTree = "<group>"; };
+		A5C7A928192E6A040093A5C9 /* melody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = melody.mp3; sourceTree = "<group>"; };
+		A5C7A92A192E6A200093A5C9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A5C7A92C192E6C180093A5C9 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C7A92B192E6A200093A5C9 /* AVFoundation.framework in Frameworks */,
 				266AEDB4192CE4CE00C2C6D9 /* CoreGraphics.framework in Frameworks */,
 				266AEDB6192CE4CE00C2C6D9 /* UIKit.framework in Frameworks */,
 				266AEDB2192CE4CE00C2C6D9 /* Foundation.framework in Frameworks */,
@@ -110,6 +123,7 @@
 		266AEDB0192CE4CE00C2C6D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5C7A92A192E6A200093A5C9 /* AVFoundation.framework */,
 				266AEDB1192CE4CE00C2C6D9 /* Foundation.framework */,
 				266AEDB3192CE4CE00C2C6D9 /* CoreGraphics.framework */,
 				266AEDB5192CE4CE00C2C6D9 /* UIKit.framework */,
@@ -130,6 +144,11 @@
 				266AEDED192D055100C2C6D9 /* GameViewController.m */,
 				266AEDEF192D0E7800C2C6D9 /* SubmitViewController.h */,
 				266AEDF0192D0E7800C2C6D9 /* SubmitViewController.m */,
+				A5C7A922192E65F20093A5C9 /* 0182-square.png */,
+				A5C7A926192E68310093A5C9 /* 0018-square.png */,
+				A5C7A924192E66DF0093A5C9 /* 0011-square.png */,
+				A5C7A928192E6A040093A5C9 /* melody.mp3 */,
+				A5C7A92C192E6C180093A5C9 /* bomb.mp3 */,
 				266AEDE9192D024800C2C6D9 /* UserInfo.h */,
 				266AEDEA192D024800C2C6D9 /* UserInfo.m */,
 				266AEDC9192CE4CE00C2C6D9 /* Images.xcassets */,
@@ -243,9 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C7A929192E6A040093A5C9 /* melody.mp3 in Resources */,
 				266AEDCA192CE4CE00C2C6D9 /* Images.xcassets in Resources */,
+				A5C7A923192E65F20093A5C9 /* 0182-square.png in Resources */,
 				266AEDBC192CE4CE00C2C6D9 /* InfoPlist.strings in Resources */,
+				A5C7A92D192E6C180093A5C9 /* bomb.mp3 in Resources */,
+				A5C7A925192E66DF0093A5C9 /* 0011-square.png in Resources */,
 				266AEDC5192CE4CE00C2C6D9 /* Main.storyboard in Resources */,
+				A5C7A927192E68310093A5C9 /* 0018-square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +498,7 @@
 				266AEDE2192CE4CE00C2C6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		266AEDE3192CE4CE00C2C6D9 /* Build configuration list for PBXNativeTarget "Wack A MoleTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +507,7 @@
 				266AEDE5192CE4CE00C2C6D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

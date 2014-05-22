@@ -10,7 +10,7 @@
 #import "UserInfo.h"
 #import "GameViewController.h"
 
-@interface ViewController () <UITextFieldDelegate, UIImagePickerControllerDelegate>
+@interface ViewController () <UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *profileButton;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
@@ -27,6 +27,8 @@
     [super viewDidLoad];
     
     self.userInfo = [[UserInfo alloc] init];
+
+    NSLog(@"Debug :%@", self.userInfo);
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
